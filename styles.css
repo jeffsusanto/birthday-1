@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image:  url('images/download.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  position: absolute;
+  z-index: 1000;
+}
+
+.container2 img[data-img1]{
+  width: 80%;
+  height: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container2 img[data-img2]{
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.container2 img[data-img3]{
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+.container2 img[data-img4]{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.container2 img[data-img5]{
+  width: 30%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  z-index: 997;
+}
+
+.container2 img[data-img6]{
+  width: 10%;
+  height: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container2 img[data-img7]{
+  width: 40%;
+  height: 20%;
+  position: absolute;
+  top: 0;
+  z-index: 998;
+}
+
+.container2 img[data-img8]{
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  left: 0;
+  z-index: 998;
+}
+.container2 img[data-img9]{
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  bottom:0;
+  left: 100px;
+}
+
+.container2 img[data-img10]{
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 200px
+}
+
+.container2 img[data-img11]{
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  z-index: 998;
+}
