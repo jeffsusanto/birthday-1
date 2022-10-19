@@ -19,6 +19,11 @@ body {
   z-index: 1000;
 }
 
+.container p {
+  font-size: 100px;
+  color: white;
+}
+
 .container2 img[data-img1]{
   width: 80%;
   height: 30%;
